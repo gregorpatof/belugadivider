@@ -14,4 +14,4 @@ As you can see, it takes 5 arguments:
 4. The directory in which the jobs will be created (no absolute path needed)
 5. The working directory for all the jobs, absolute path
 
-That is all! Once this script has been run, the generated jobs will be found in the supplied jobs_directory, number from 0 to n-1. The jobs can be started individually with sbatch, or all at once by calling the generated bash script start_jobs.sh, also in the jobs_directory.
+That is all! Once this script has been run, the generated jobs will be found in the supplied jobs_directory, numbered from 0 to n-1. The jobs can be started individually with sbatch, or all at once by calling the generated bash script start_jobs.sh, also in the jobs_directory.
